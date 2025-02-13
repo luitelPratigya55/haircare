@@ -1,6 +1,8 @@
 function Grid(){
     return (
         <div className="grid grid-cols-5 gap-1">
+
+        <div>Changed to New Grid</div>
         <div className="flex items-center justify-center text-white  bg-primary row-span-4">1</div>
         <div className="flex items-center justify-center text-white bg-secondary-50 h-[50px] col-span-3 " >2</div>
 
